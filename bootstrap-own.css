@@ -13,6 +13,7 @@ html {
 }
 
 /* BUTTONs */
+nav,
 .btn {
   position: relative;
   overflow: hidden;
@@ -94,15 +95,15 @@ html {
 /* BORDERs */
 
 .border-color {
-    border-color: var(--color);
+  border-color: var(--color);
 }
 
 .border-secolor {
-    border-color: var(--color-secondary);
+  border-color: var(--color-secondary);
 }
 
 .border-thcolor {
-    border-color: var(--color-third);
+  border-color: var(--color-third);
 }
 
 .b1-top {
