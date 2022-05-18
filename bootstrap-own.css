@@ -44,9 +44,24 @@ html {
   color: var(--color-secondary);
 }
 
+.btn-secolor:focus {
+  background-color: var(--white);
+  color: var(--color-secondary);
+}
+
 .btn-thcolor {
   background-color: var(--color-third);
   color: var(--white);
+}
+
+.btn-thcolor:hover {
+  background-color: var(--white);
+  color: var(--color-third);
+}
+
+.btn-thcolor:focus {
+  background-color: var(--white);
+  color: var(--color-third);
 }
 
 /* TEXT */
@@ -54,29 +69,64 @@ html {
   color: var(--color);
 }
 
+.text-secolor {
+  color: var(--color-secondary);
+}
+
+.text-thcolor {
+  color: var(--color-third);
+}
+
+/* BACKGROUND */
+
+.bg-color {
+  background-color: var(--color);
+}
+
+.bg-secolor {
+  background-color: var(--color-secondary);
+}
+
+.bg-thcolor {
+  background-color: var(--color-third);
+}
+
 /* BORDERs */
+
+.border-color {
+    border-color: var(--color);
+}
+
+.border-secolor {
+    border-color: var(--color-secondary);
+}
+
+.border-thcolor {
+    border-color: var(--color-third);
+}
+
 .b1-top {
-  border-top: 1px solid var(--color) !important;
+  border-top: 1px solid !important;
 }
 
 .b1-bottom {
-  border-bottom: 1px solid var(--color) !important;
+  border-bottom: 1px solid !important;
 }
 
 .b2-top {
-  border-top: 2px solid var(--color) !important;
+  border-top: 2px solid !important;
 }
 
 .b2-bottom {
-  border-bottom: 2px solid var(--color) !important;
+  border-bottom: 2px solid !important;
 }
 
 .b3-top {
-  border-top: 3px solid var(--color) !important;
+  border-top: 3px solid !important;
 }
 
 .b3-bottom {
-  border-bottom: 3px solid var(--color) !important;
+  border-bottom: 3px solid !important;
 }
 
 span.ripple {
