@@ -24,16 +24,6 @@ html {
   color: var(--white);
 }
 
-.btn-secolor {
-  background-color: var(--color-secondary);
-  color: var(--white);
-}
-
-.btn-thcolor {
-  background-color: var(--color-third);
-  color: var(--white);
-}
-
 .btn-color:hover {
   background-color: var(--white);
   color: var(--color);
@@ -42,6 +32,21 @@ html {
 .btn-color:focus {
   background-color: var(--white);
   color: var(--color);
+}
+
+.btn-secolor {
+  background-color: var(--color-secondary);
+  color: var(--white);
+}
+
+.btn-secolor:hover {
+  background-color: var(--white);
+  color: var(--color-secondary);
+}
+
+.btn-thcolor {
+  background-color: var(--color-third);
+  color: var(--white);
 }
 
 /* TEXT */
