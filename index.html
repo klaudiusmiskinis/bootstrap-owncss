@@ -18,6 +18,7 @@
     <!-- CONTENT CONTAINER -->
     <div class="container px-4 py-5">
       <h3 class="text-color border-bottom">Colors</h3>
+      <!-- PRIMARY -->
       <div class="d-flex align-items-center">
         <div class="flex-shrink-0">
           <input
@@ -29,6 +30,7 @@
         </div>
         <div class="flex-grow-1 ms-1" id="primaryColor">Color primary</div>
       </div>
+      <!-- SECONDARY -->
       <div class="d-flex align-items-center">
         <div class="flex-shrink-0">
           <input
@@ -40,6 +42,7 @@
         </div>
         <div class="flex-grow-1 ms-1" id="secondaryColor">Color secondary</div>
       </div>
+      <!-- THIRD -->
       <div class="d-flex align-items-center">
         <div class="flex-shrink-0">
           <input
@@ -51,18 +54,21 @@
         </div>
         <div class="flex-grow-1 ms-1" id="thirdColor">Color third</div>
       </div>
-
       <!-- TITLE -->
       <h3 class="text-color">Buttons</h3>
       <!-- SUBTITLE -->
       <p class="border-bottom">Buttons without shadow</p>
-      <div class="d-flex gap-1 mb-3">
+      <!-- PRIMARY COLOR BUTTONS -->
+      <div class="d-flex gap-1 mb-1">
         <button class="btn btn-color">Default</button>
         <button class="btn btn-color border-0">Without Border</button>
         <button class="btn btn-color rounded-0">Squared</button>
         <button class="btn btn-color rounded-0 border-0">
           Squared Without Border
         </button>
+      </div>
+      <!-- SECONDARY COLOR BUTTONS -->
+      <div class="d-flex gap-1 mb-1">
         <button class="btn btn-secolor">Default</button>
         <button class="btn btn-secolor border-0">Without Border</button>
         <button class="btn btn-secolor rounded-0">Squared</button>
@@ -70,8 +76,17 @@
           Squared Without Border
         </button>
       </div>
-      <!-- SUBTITLE -->
-      <p class="border-bottom">Buttons with shadow</p>
+      <!-- THIRD COLOR BUTTONS -->
+      <div class="d-flex gap-1 mb-3">
+        <button class="btn btn-thcolor">Default</button>
+        <button class="btn btn-thcolor border-0">Without Border</button>
+        <button class="btn btn-thcolor rounded-0">Squared</button>
+        <button class="btn btn-thcolor rounded-0 border-0">
+          Squared Without Border
+        </button>
+      </div>
+      <!-- SHADOWs -->
+      <p class="border-bottom">Buttons shadows</p>
       <div class="d-flex gap-1 mb-3">
         <button class="btn btn-color shadow">Default</button>
         <button class="btn btn-color shadow border-0">Without border</button>
@@ -81,11 +96,10 @@
         </button>
       </div>
       <!-- SUBTITLE -->
-      <p class="border-bottom">Button borders with shadows</p>
+      <p class="border-bottom">Button borders</p>
       <div class="d-flex gap-1">
         <button class="btn btn-color shadow border-0 b1-bottom border-color">
           Bottom
-        </button>
         </button>
         <button class="btn btn-color shadow rounded-0 border-0 b1-bottom">
           Squared
