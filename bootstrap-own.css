@@ -13,13 +13,6 @@ html {
 }
 
 /* BUTTONs */
-nav,
-.btn {
-  position: relative;
-  overflow: hidden;
-}
-
-/* BUTTONs */
 .btn-color {
   background-color: var(--color);
   color: var(--white);
@@ -130,6 +123,13 @@ nav,
   border-bottom: 3px solid !important;
 }
 
+/* RIPPLE */
+nav,
+.btn {
+  position: relative;
+  overflow: hidden;
+}
+
 span.ripple {
   position: absolute; /* The absolute position we mentioned earlier */
   border-radius: 50%;
@@ -141,7 +141,7 @@ span.ripple {
 
 @keyframes ripple {
   to {
-    transform: scale(4);
+    transform: scale(2);
     opacity: 0;
   }
 }
